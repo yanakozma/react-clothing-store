@@ -1,0 +1,278 @@
+.ShopCategory-banner {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100vh;
+    width: 100%;
+}
+
+.ShopCategory-banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 150px;
+    line-height: 1.1;
+}
+
+.ShopCategory-banner-text h1 {
+    color: #dbe9ee;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.ShopCategory-banner-text h2 {
+    color: #dbe9ee;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.ShopCategory-banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background-color: #242423;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.ShopCategory-collection {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.ShopCategory-indexSort {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ShopCategory-indexSort span {
+    font-weight: 700;
+}
+
+.ShopCategory-sort {
+    padding: 10px 20px;
+    border: 1px solid #888;
+    border-radius: 40px;
+}
+
+
+.ShopCategory-products {
+    /* padding: 20px 125px; */
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ShopCategory-loadmore-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.ShopCategory-video {
+    margin-top: 70px;
+}
+
+.ShopCategory-video video {
+    width: 100%;
+    height: auto;
+}
+
+.ShopCategory-women .ShopCategory-banner {
+    justify-content: start;
+}
+
+.ShopCategory-women .ShopCategory-banner-text {
+    padding-left: 150px;
+    padding-right: 0;
+}
+
+.ShopCategory-women .ShopCategory-banner-btn {
+    background-color: #415d43;
+}
+
+.ShopCategory-women .Item {
+    background-color: #edede9;
+}
+
+.ShopCategory-kids .ShopCategory-banner-btn {
+    background-color: #da7422;
+}
+
+.ShopCategory-men .ShopCategory-indexSort {
+    color: white;
+}
+
+.ShopCategory-men .ShopCategory-products {
+    color: white;
+}
+
+.ShopCategory-kids .ShopCategory-loadmore-btn {
+    background: #ffd6ba;
+}
+
+@media(max-width: 1280px) {
+    .ShopCategory-banner {
+        height: 90vh;
+    }
+
+    .ShopCategory-banner-text h1 {
+        font-size: 27px;
+    }
+
+    .ShopCategory-banner-text h2 {
+        font-size: 60px;
+    }
+
+    .ShopCategory-banner-btn {
+        gap: 10px;
+        width: 250px;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .ShopCategory-sort {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .ShopCategory-indexSort p {
+        font-size: 12px;
+    }
+
+    .ShopCategory-products {
+        margin: 10px auto;
+    }
+
+    .ShopCategory-loadmore-btn {
+        width: 190px;
+        height: 59px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .ShopCategory-banner {
+        height: 70vh;
+    }
+    .ShopCategory-women .ShopCategory-banner-text {
+        padding-left: 100px;
+        padding-right: 0;
+    }
+
+    .ShopCategory-banner-text {
+        gap: 15px;
+        padding-right: 100px;
+    }
+
+    .ShopCategory-banner-text h1 {
+        font-size: 22px;
+    }
+
+    .ShopCategory-banner-text h2 {
+        font-size: 50px;
+    }
+
+    .ShopCategory-banner-btn {
+        width: 220px;
+        height: 50px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .ShopCategory-loadmore-btn {
+        width: 160px;
+        height: 49px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 768px) {
+    .ShopCategory-banner {
+        height: 60vh;
+    }
+    .ShopCategory-banner-text {
+        gap: 10px;
+        padding-right: 80px;
+    }
+    .ShopCategory-women .ShopCategory-banner-text {
+        padding-left: 80px;
+        padding-right: 0;
+    }
+    .ShopCategory-banner-text h1 {
+        font-size: 20px;
+    }
+    .ShopCategory-banner-text h2 {
+        font-size: 40px;
+    }
+    .ShopCategory-banner-btn {
+        width: 175px;
+        height: 40px;
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    .ShopCategory-loadmore-btn {
+        margin: 40px auto;
+        width: 150px;
+        height: 39px;
+        font-size: 13px;
+    }
+    .ShopCategory-video {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 500px) {
+    .ShopCategory-banner {
+        height: 50vh;
+    }
+    .ShopCategory-banner-text {
+        gap: 15px;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+    .ShopCategory-women .ShopCategory-banner-text {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .ShopCategory-banner-text h1 {
+        font-size: 18px;
+    }
+    .ShopCategory-banner-text h2 {
+        font-size: 35px;
+    }
+    .ShopCategory-loadmore-btn {
+        margin: 45px auto;
+        width: 160px;
+        height: 49px;
+        font-size: 15px;
+    }
+    .ShopCategory-products {
+        margin: 15px auto;
+    }
+    .ShopCategory-video {
+        margin-top: 60px;
+    }
+}

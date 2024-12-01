@@ -1,0 +1,142 @@
+.Hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../assets/hero_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.Hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.Hero-text h1 {
+    color: #dbe9ee;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.Hero-text p {
+    color: #dbe9ee;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.Hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #d62828;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+@media(max-width:1280px) {
+    .Hero-text {
+        padding-left: 100px;
+    }
+    .Hero-text h1 {
+        font-size: 22px;
+    }
+    .Hero-text p {
+        font-size: 60px;
+    }
+    .Hero-latest-btn {
+        gap: 10px;
+        width: 250px;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .Hero-latest-btn img {
+        width: 22px;
+        height: 13px;
+    }
+}
+
+@media(max-width:1024px) {
+    .Hero {
+        height: 80vh;
+    }
+    .Hero-text {
+        padding-left: 80px;
+    }
+    .Hero-text h1 {
+        font-size: 20px;
+    }
+    .Hero-text p {
+        font-size: 50px;
+    }
+    .Hero-latest-btn {
+        width: 220px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .Hero-latest-btn img {
+        width: 20px;
+        height: 11px;
+    }
+}
+
+@media(max-width:768px) {
+    .Hero {
+        height: 70vh;
+    }
+    .Hero-text {
+        padding-left: 30px;
+    }
+    .Hero-text h1 {
+        font-size: 16px;
+    }
+    .Hero-text p {
+        font-size: 40px;
+    }
+    .Hero-latest-btn {
+        width: 175px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .Hero-latest-btn img {
+        width: 18px;
+        height: 9px;
+    }
+}
+
+@media(max-width:500px) {
+    .Hero-text {
+        padding-left: 50px;
+    }
+    .Hero-text h1 {
+        font-size: 18px;
+    }
+    .Hero-text p {
+        font-size: 50px;
+    }
+    .Hero-latest-btn {
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .Hero-latest-btn img {
+        width: 19px;
+        height: 10px;
+    }
+}
+
+
+
